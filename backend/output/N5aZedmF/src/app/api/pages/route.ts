@@ -1,0 +1,1 @@
+import{repo}from'../../../server/repository';export async function GET(r:Request){const p=new URL(r.url).searchParams.get('path')||'/';const d=repo.page(p);return Response.json(d?{success:true,data:d}:{success:false,error:{code:'PAGE_NOT_MIGRATED'}},{status:d?200:404})}

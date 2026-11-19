@@ -1,0 +1,1 @@
+'use client';import{useState}from'react';import{QueryClientProvider}from'@tanstack/react-query';import{qc}from'../lib';export default function P({children}:{children:React.ReactNode}){const[q]=useState(qc);return <QueryClientProvider client={q}>{children}</QueryClientProvider>}

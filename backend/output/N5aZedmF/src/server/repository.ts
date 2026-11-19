@@ -1,0 +1,1 @@
+import data from'../../server/data/content.json';export const repo={page:(p:string)=>data.pages.find(x=>x.route===p)}

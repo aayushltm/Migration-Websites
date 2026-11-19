@@ -1,0 +1,1 @@
+{"name":"speed1-backend","private":true,"type":"module","scripts":{"dev":"node --watch src/server.js"},"dependencies":{"@playwright/test":"^1.48.2","archiver":"^7.0.1","cheerio":"^1.0.0","cors":"^2.8.5","express":"^4.21.1","nanoid":"^5.0.8"}}

@@ -1,0 +1,1 @@
+import Page from'../../components/Page';export default function Dynamic({params}:{params:{slug:string[]}}){return <Page path={'/'+params.slug.join('/')}/>} 

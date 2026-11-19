@@ -1,0 +1,1 @@
+import'./globals.css';import P from'./providers';export default function L({children}:{children:React.ReactNode}){return <html><body><P>{children}</P></body></html>}

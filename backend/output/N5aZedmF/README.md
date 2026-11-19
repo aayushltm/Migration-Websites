@@ -1,0 +1,2 @@
+# Generated Next.js App
+Runs on port 3001. Preserves captured UI and hover menus, localizes internal routes, removes captured cookie/consent banners, resolves lazy images before capture, reports broken image URLs in content.json, and normalizes only page-level nested scroll containers.
